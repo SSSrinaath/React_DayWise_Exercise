@@ -1,0 +1,26 @@
+DAY-2 Project-1
+
+Index.js
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import Greet from './components/javascript/ddd';
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+  <React.StrictMode>
+    
+    <Hello />
+  </React.StrictMode>
+);
+
+
+Hello.js
+import React from 'react'
+
+export default function Hello() {
+  return (
+    <div>
+      <h1>Hello, World!</h1>
+    </div>
+  );
+}
